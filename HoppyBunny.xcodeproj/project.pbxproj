@@ -14,6 +14,12 @@
 		A3D915331D1AF41600C45F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D915311D1AF41600C45F93 /* Main.storyboard */; };
 		A3D915351D1AF41600C45F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D915341D1AF41600C45F93 /* Assets.xcassets */; };
 		A3D915381D1AF41600C45F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D915361D1AF41600C45F93 /* LaunchScreen.storyboard */; };
+		A3D915401D1AF51000C45F93 /* SFX in Resources */ = {isa = PBXBuildFile; fileRef = A3D9153F1D1AF51000C45F93 /* SFX */; };
+		A3D915421D1AF9F900C45F93 /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3D915411D1AF9F900C45F93 /* Hero.sks */; };
+		A3D915461D1B5B9E00C45F93 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D915451D1B5B9E00C45F93 /* File.swift */; };
+		A3D915481D1C57BB00C45F93 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3D915471D1C57BB00C45F93 /* Obstacle.sks */; };
+		A3D9154A1D1C8DEE00C45F93 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D915491D1C8DEE00C45F93 /* GameOver.swift */; };
+		A3D9154C1D1C93AF00C45F93 /* Game Effects.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3D9154B1D1C93AF00C45F93 /* Game Effects.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		A3D915341D1AF41600C45F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D915371D1AF41600C45F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3D915391D1AF41600C45F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D9153F1D1AF51000C45F93 /* SFX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SFX; path = ../../../Downloads/SFX; sourceTree = "<group>"; };
+		A3D915411D1AF9F900C45F93 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		A3D915451D1B5B9E00C45F93 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A3D915471D1C57BB00C45F93 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		A3D915491D1C8DEE00C45F93 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		A3D9154B1D1C93AF00C45F93 /* Game Effects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Game Effects.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +70,18 @@
 		A3D915281D1AF41600C45F93 /* HoppyBunny */ = {
 			isa = PBXGroup;
 			children = (
+				A3D915451D1B5B9E00C45F93 /* File.swift */,
 				A3D915291D1AF41600C45F93 /* AppDelegate.swift */,
 				A3D9152B1D1AF41600C45F93 /* GameScene.sks */,
+				A3D915411D1AF9F900C45F93 /* Hero.sks */,
 				A3D9152D1D1AF41600C45F93 /* GameScene.swift */,
+				A3D9154B1D1C93AF00C45F93 /* Game Effects.sks */,
+				A3D915491D1C8DEE00C45F93 /* GameOver.swift */,
+				A3D915471D1C57BB00C45F93 /* Obstacle.sks */,
 				A3D9152F1D1AF41600C45F93 /* GameViewController.swift */,
 				A3D915311D1AF41600C45F93 /* Main.storyboard */,
 				A3D915341D1AF41600C45F93 /* Assets.xcassets */,
+				A3D9153F1D1AF51000C45F93 /* SFX */,
 				A3D915361D1AF41600C45F93 /* LaunchScreen.storyboard */,
 				A3D915391D1AF41600C45F93 /* Info.plist */,
 			);
@@ -129,9 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D9152C1D1AF41600C45F93 /* GameScene.sks in Resources */,
+				A3D9154C1D1C93AF00C45F93 /* Game Effects.sks in Resources */,
+				A3D915401D1AF51000C45F93 /* SFX in Resources */,
 				A3D915381D1AF41600C45F93 /* LaunchScreen.storyboard in Resources */,
+				A3D915421D1AF9F900C45F93 /* Hero.sks in Resources */,
 				A3D915351D1AF41600C45F93 /* Assets.xcassets in Resources */,
 				A3D915331D1AF41600C45F93 /* Main.storyboard in Resources */,
+				A3D915481D1C57BB00C45F93 /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D9152E1D1AF41600C45F93 /* GameScene.swift in Sources */,
+				A3D915461D1B5B9E00C45F93 /* File.swift in Sources */,
 				A3D915301D1AF41600C45F93 /* GameViewController.swift in Sources */,
+				A3D9154A1D1C8DEE00C45F93 /* GameOver.swift in Sources */,
 				A3D9152A1D1AF41600C45F93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
